@@ -1,3 +1,7 @@
+# Important:
+# echo 'export ZDOTDIR=$HOME/.config/zsh' | sudo tee -a /etc/zsh/zprofile
+#
+
 # must be before p10k instant prompt
 if $(command -v fortune >/dev/null); then
 	cols=$(tput cols)
